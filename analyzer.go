@@ -23,11 +23,11 @@ import (
 	"strings"
 	"unicode"
 
-	"go-sql2struct/sqltypes"
+	"github.com/Bill-cc/go-sql2struct/sqltypes"
 
-	"go-sql2struct/vterrors"
+	"github.com/Bill-cc/go-sql2struct/vterrors"
 
-	vtrpcpb "go-sql2struct/proto/vtrpc"
+	vtrpcpb "github.com/Bill-cc/go-sql2struct/proto/vtrpc"
 )
 
 // StatementType encodes the type of a SQL statement

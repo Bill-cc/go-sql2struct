@@ -21,7 +21,7 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	vtrpcpb "go-sql2struct/proto/vtrpc"
+	vtrpcpb "github.com/Bill-cc/go-sql2struct/proto/vtrpc"
 )
 
 func TestFromVtRPCError(t *testing.T) {

@@ -20,7 +20,7 @@ import (
 	"sort"
 	"strings"
 
-	vtrpcpb "go-sql2struct/proto/vtrpc"
+	vtrpcpb "github.com/Bill-cc/go-sql2struct/proto/vtrpc"
 )
 
 // A list of all vtrpcpb.Code, ordered by priority. These priorities are

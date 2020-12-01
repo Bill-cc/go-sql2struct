@@ -23,10 +23,10 @@ import (
 	"runtime/debug"
 	"sync"
 
-	"go-sql2struct/visitorgen/log"
-	"go-sql2struct/vterrors"
+	"github.com/Bill-cc/go-sql2struct/visitorgen/log"
+	"github.com/Bill-cc/go-sql2struct/vterrors"
 
-	vtrpcpb "go-sql2struct/proto/vtrpc"
+	vtrpcpb "github.com/Bill-cc/go-sql2struct/proto/vtrpc"
 )
 
 // parserPool is a pool for parser objects.

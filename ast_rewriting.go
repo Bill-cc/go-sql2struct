@@ -17,10 +17,10 @@ limitations under the License.
 package sqlparser
 
 import (
-	querypb "go-sql2struct/proto/query"
+	querypb "github.com/Bill-cc/go-sql2struct/proto/query"
 
-	vtrpcpb "go-sql2struct/proto/vtrpc"
-	"go-sql2struct/vterrors"
+	vtrpcpb "github.com/Bill-cc/go-sql2struct/proto/vtrpc"
+	"github.com/Bill-cc/go-sql2struct/vterrors"
 )
 
 // RewriteASTResult contains the rewritten ast and meta information about it

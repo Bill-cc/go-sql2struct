@@ -21,11 +21,11 @@ import (
 	"encoding/json"
 	"strings"
 
-	"go-sql2struct/visitorgen/log"
+	"github.com/Bill-cc/go-sql2struct/visitorgen/log"
 
-	"go-sql2struct/sqltypes"
+	"github.com/Bill-cc/go-sql2struct/sqltypes"
 
-	querypb "go-sql2struct/proto/query"
+	querypb "github.com/Bill-cc/go-sql2struct/proto/query"
 )
 
 // Walk calls visit on every node.

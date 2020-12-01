@@ -19,9 +19,9 @@ package sqlparser
 import (
 	"strconv"
 
-	"go-sql2struct/sqltypes"
+	"github.com/Bill-cc/go-sql2struct/sqltypes"
 
-	querypb "go-sql2struct/proto/query"
+	querypb "github.com/Bill-cc/go-sql2struct/proto/query"
 )
 
 // Normalize changes the statement to use bind values, and

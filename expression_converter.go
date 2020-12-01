@@ -19,7 +19,7 @@ package sqlparser
 import (
 	"fmt"
 
-	"go-sql2struct/evalengine"
+	"github.com/Bill-cc/go-sql2struct/evalengine"
 )
 
 // ErrExprNotSupported signals that the expression cannot be handled by expression evaluation engine.

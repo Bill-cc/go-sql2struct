@@ -19,9 +19,9 @@ package sqltypes
 import (
 	"encoding/json"
 
-	querypb "go-sql2struct/proto/query"
-	vtrpcpb "go-sql2struct/proto/vtrpc"
-	"go-sql2struct/vterrors"
+	querypb "github.com/Bill-cc/go-sql2struct/proto/query"
+	vtrpcpb "github.com/Bill-cc/go-sql2struct/proto/vtrpc"
+	"github.com/Bill-cc/go-sql2struct/vterrors"
 )
 
 // PlanValue represents a value or a list of values for

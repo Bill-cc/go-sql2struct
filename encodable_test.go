@@ -20,7 +20,7 @@ import (
 	"strings"
 	"testing"
 
-	"go-sql2struct/sqltypes"
+	"github.com/Bill-cc/go-sql2struct/sqltypes"
 )
 
 func TestEncodable(t *testing.T) {

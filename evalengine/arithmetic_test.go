@@ -24,17 +24,17 @@ import (
 	"strconv"
 	"testing"
 
-	"go-sql2struct/test/utils"
+	"github.com/Bill-cc/go-sql2struct/test/utils"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"go-sql2struct/sqltypes"
+	"github.com/Bill-cc/go-sql2struct/sqltypes"
 
-	querypb "go-sql2struct/proto/query"
-	vtrpcpb "go-sql2struct/proto/vtrpc"
+	querypb "github.com/Bill-cc/go-sql2struct/proto/query"
+	vtrpcpb "github.com/Bill-cc/go-sql2struct/proto/vtrpc"
 
-	"go-sql2struct/vterrors"
+	"github.com/Bill-cc/go-sql2struct/vterrors"
 )
 
 var (

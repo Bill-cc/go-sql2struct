@@ -16,7 +16,7 @@ limitations under the License.
 
 package sqlparser
 
-import querypb "go-sql2struct/proto/query"
+import querypb "github.com/Bill-cc/go-sql2struct/proto/query"
 
 // RedactSQLQuery returns a sql string with the params stripped out for display
 func RedactSQLQuery(sql string) (string, error) {

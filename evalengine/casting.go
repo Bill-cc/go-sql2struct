@@ -19,10 +19,10 @@ package evalengine
 import (
 	"strings"
 
-	"go-sql2struct/sqltypes"
+	"github.com/Bill-cc/go-sql2struct/sqltypes"
 
-	vtrpcpb "go-sql2struct/proto/vtrpc"
-	"go-sql2struct/vterrors"
+	vtrpcpb "github.com/Bill-cc/go-sql2struct/proto/vtrpc"
+	"github.com/Bill-cc/go-sql2struct/vterrors"
 )
 
 //ToBooleanStrict is used when the casting to a boolean has to be minimally forgiving,

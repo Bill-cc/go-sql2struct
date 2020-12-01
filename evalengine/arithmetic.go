@@ -21,14 +21,14 @@ import (
 	"fmt"
 	"math"
 
-	"go-sql2struct/sqltypes"
+	"github.com/Bill-cc/go-sql2struct/sqltypes"
 
 	"strconv"
 
-	querypb "go-sql2struct/proto/query"
-	vtrpcpb "go-sql2struct/proto/vtrpc"
+	querypb "github.com/Bill-cc/go-sql2struct/proto/query"
+	vtrpcpb "github.com/Bill-cc/go-sql2struct/proto/vtrpc"
 
-	"go-sql2struct/vterrors"
+	"github.com/Bill-cc/go-sql2struct/vterrors"
 )
 
 // evalengine represents a numeric value extracted from

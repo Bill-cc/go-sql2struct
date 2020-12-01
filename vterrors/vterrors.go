@@ -91,7 +91,7 @@ import (
 	"io"
 
 	"golang.org/x/net/context"
-	vtrpcpb "go-sql2struct/proto/vtrpc"
+	vtrpcpb "github.com/Bill-cc/go-sql2struct/proto/vtrpc"
 )
 
 // LogErrStacks controls whether or not printing errors includes the

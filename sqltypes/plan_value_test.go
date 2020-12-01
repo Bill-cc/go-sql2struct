@@ -23,7 +23,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	querypb "go-sql2struct/proto/query"
+	querypb "github.com/Bill-cc/go-sql2struct/proto/query"
 )
 
 func TestPlanValueIsNull(t *testing.T) {

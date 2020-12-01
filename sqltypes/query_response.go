@@ -17,7 +17,7 @@ limitations under the License.
 package sqltypes
 
 import (
-	"go-sql2struct/vterrors"
+	"github.com/Bill-cc/go-sql2struct/vterrors"
 )
 
 // QueryResponse represents a query response for ExecuteBatch.

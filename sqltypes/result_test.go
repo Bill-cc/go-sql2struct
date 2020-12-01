@@ -20,7 +20,7 @@ import (
 	"reflect"
 	"testing"
 
-	querypb "go-sql2struct/proto/query"
+	querypb "github.com/Bill-cc/go-sql2struct/proto/query"
 )
 
 func TestRepair(t *testing.T) {

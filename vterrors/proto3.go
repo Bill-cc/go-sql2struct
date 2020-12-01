@@ -17,7 +17,7 @@ limitations under the License.
 package vterrors
 
 import (
-	vtrpcpb "go-sql2struct/proto/vtrpc"
+	vtrpcpb "github.com/Bill-cc/go-sql2struct/proto/vtrpc"
 )
 
 // This file contains the necessary methods to send and receive errors

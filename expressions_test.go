@@ -19,11 +19,11 @@ package sqlparser
 import (
 	"testing"
 
-	"go-sql2struct/evalengine"
+	"github.com/Bill-cc/go-sql2struct/evalengine"
 
-	"go-sql2struct/sqltypes"
+	"github.com/Bill-cc/go-sql2struct/sqltypes"
 
-	querypb "go-sql2struct/proto/query"
+	querypb "github.com/Bill-cc/go-sql2struct/proto/query"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

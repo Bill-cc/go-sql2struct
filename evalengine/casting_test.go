@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"testing"
 
-	"go-sql2struct/sqltypes"
+	"github.com/Bill-cc/go-sql2struct/sqltypes"
 
 	"github.com/stretchr/testify/require"
 )

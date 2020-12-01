@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"testing"
 
-	vtrpcpb "go-sql2struct/proto/vtrpc"
+	vtrpcpb "github.com/Bill-cc/go-sql2struct/proto/vtrpc"
 )
 
 var errGeneric = "generic error"

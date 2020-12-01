@@ -17,13 +17,13 @@ limitations under the License.
 package evalengine
 
 import (
-	"go-sql2struct/sqltypes"
+	"github.com/Bill-cc/go-sql2struct/sqltypes"
 
 	"strconv"
 
-	querypb "go-sql2struct/proto/query"
-	vtrpcpb "go-sql2struct/proto/vtrpc"
-	"go-sql2struct/vterrors"
+	querypb "github.com/Bill-cc/go-sql2struct/proto/query"
+	vtrpcpb "github.com/Bill-cc/go-sql2struct/proto/vtrpc"
+	"github.com/Bill-cc/go-sql2struct/vterrors"
 )
 
 // Cast converts a Value to the target type.

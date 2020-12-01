@@ -25,11 +25,11 @@ import (
 	"io/ioutil"
 	"os"
 
-	"go-sql2struct/visitorgen/exit"
+	"github.com/Bill-cc/go-sql2struct/visitorgen/exit"
 
-	"go-sql2struct/visitorgen/log"
+	"github.com/Bill-cc/go-sql2struct/visitorgen/log"
 
-	"go-sql2struct/visitorgen"
+	"github.com/Bill-cc/go-sql2struct/visitorgen"
 )
 
 var (

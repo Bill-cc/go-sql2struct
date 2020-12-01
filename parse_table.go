@@ -17,8 +17,8 @@ limitations under the License.
 package sqlparser
 
 import (
-	vtrpcpb "go-sql2struct/proto/vtrpc"
-	"go-sql2struct/vterrors"
+	vtrpcpb "github.com/Bill-cc/go-sql2struct/proto/vtrpc"
+	"github.com/Bill-cc/go-sql2struct/vterrors"
 )
 
 // ParseTable parses the input as a qualified table name.

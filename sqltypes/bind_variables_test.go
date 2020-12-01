@@ -22,12 +22,12 @@ import (
 	"strings"
 	"testing"
 
-	"go-sql2struct/test/utils"
+	"github.com/Bill-cc/go-sql2struct/test/utils"
 
 	"github.com/golang/protobuf/proto"
 	"github.com/stretchr/testify/require"
 
-	querypb "go-sql2struct/proto/query"
+	querypb "github.com/Bill-cc/go-sql2struct/proto/query"
 )
 
 func TestProtoConversions(t *testing.T) {

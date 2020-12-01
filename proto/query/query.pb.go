@@ -7,8 +7,8 @@ import (
 	fmt "fmt"
 	math "math"
 
-	topodata "go-sql2struct/proto/topodata"
-	vtrpc "go-sql2struct/proto/vtrpc"
+	topodata "github.com/Bill-cc/go-sql2struct/proto/topodata"
+	vtrpc "github.com/Bill-cc/go-sql2struct/proto/vtrpc"
 
 	proto "github.com/golang/protobuf/proto"
 )

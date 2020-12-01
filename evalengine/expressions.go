@@ -20,11 +20,11 @@ import (
 	"fmt"
 	"strconv"
 
-	"go-sql2struct/sqltypes"
+	"github.com/Bill-cc/go-sql2struct/sqltypes"
 
-	querypb "go-sql2struct/proto/query"
-	vtrpcpb "go-sql2struct/proto/vtrpc"
-	"go-sql2struct/vterrors"
+	querypb "github.com/Bill-cc/go-sql2struct/proto/query"
+	vtrpcpb "github.com/Bill-cc/go-sql2struct/proto/vtrpc"
+	"github.com/Bill-cc/go-sql2struct/vterrors"
 )
 
 type (

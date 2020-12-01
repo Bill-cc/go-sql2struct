@@ -19,7 +19,7 @@ package sqlparser
 import (
 	"strings"
 
-	"go-sql2struct/sqltypes"
+	"github.com/Bill-cc/go-sql2struct/sqltypes"
 )
 
 // This file contains types that are 'Encodable'.

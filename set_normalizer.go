@@ -19,8 +19,8 @@ package sqlparser
 import (
 	"strings"
 
-	"go-sql2struct/proto/vtrpc"
-	"go-sql2struct/vterrors"
+	"github.com/Bill-cc/go-sql2struct/proto/vtrpc"
+	"github.com/Bill-cc/go-sql2struct/vterrors"
 )
 
 type setNormalizer struct {

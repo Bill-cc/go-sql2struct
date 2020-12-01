@@ -25,7 +25,7 @@ import (
 	"testing"
 
 	"golang.org/x/net/context"
-	vtrpcpb "go-sql2struct/proto/vtrpc"
+	vtrpcpb "github.com/Bill-cc/go-sql2struct/proto/vtrpc"
 )
 
 func TestWrapNil(t *testing.T) {

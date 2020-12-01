@@ -19,9 +19,9 @@ package sqltypes
 import (
 	"github.com/golang/protobuf/proto"
 
-	"go-sql2struct/vterrors"
+	"github.com/Bill-cc/go-sql2struct/vterrors"
 
-	querypb "go-sql2struct/proto/query"
+	querypb "github.com/Bill-cc/go-sql2struct/proto/query"
 )
 
 // This file contains the proto3 conversion functions for the structures

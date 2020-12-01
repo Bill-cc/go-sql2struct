@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"strings"
 
-	"go-sql2struct/sqltypes"
+	"github.com/Bill-cc/go-sql2struct/sqltypes"
 )
 
 /*

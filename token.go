@@ -22,9 +22,9 @@ import (
 	"io"
 	"strings"
 
-	"go-sql2struct/sqltypes"
+	"github.com/Bill-cc/go-sql2struct/sqltypes"
 
-	"go-sql2struct/bytes2"
+	"github.com/Bill-cc/go-sql2struct/bytes2"
 )
 
 const (

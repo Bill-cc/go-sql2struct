@@ -21,9 +21,9 @@ import (
 
 	"github.com/golang/protobuf/proto"
 	"github.com/stretchr/testify/require"
-	querypb "go-sql2struct/proto/query"
-	vtrpcpb "go-sql2struct/proto/vtrpc"
-	"go-sql2struct/vterrors"
+	querypb "github.com/Bill-cc/go-sql2struct/proto/query"
+	vtrpcpb "github.com/Bill-cc/go-sql2struct/proto/vtrpc"
+	"github.com/Bill-cc/go-sql2struct/vterrors"
 )
 
 func TestResult(t *testing.T) {

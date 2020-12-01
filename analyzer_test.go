@@ -19,10 +19,11 @@ package sqlparser
 import (
 	"testing"
 
-	"github.com/stretchr/testify/require"
-	"go-sql2struct/test/utils"
+	"github.com/Bill-cc/go-sql2struct/test/utils"
 
-	"go-sql2struct/sqltypes"
+	"github.com/stretchr/testify/require"
+
+	"github.com/Bill-cc/go-sql2struct/sqltypes"
 
 	"github.com/stretchr/testify/assert"
 )

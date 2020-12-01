@@ -50,9 +50,9 @@ package exit
 import (
 	"os"
 
-	"go-sql2struct/visitorgen/tb"
+	"github.com/Bill-cc/go-sql2struct/visitorgen/tb"
 
-	"go-sql2struct/visitorgen/log"
+	"github.com/Bill-cc/go-sql2struct/visitorgen/log"
 )
 
 type exitCode int

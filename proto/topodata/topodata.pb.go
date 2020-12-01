@@ -7,7 +7,7 @@ import (
 	fmt "fmt"
 	math "math"
 
-	vttime "go-sql2struct/proto/vttime"
+	vttime "github.com/Bill-cc/go-sql2struct/proto/vttime"
 
 	proto "github.com/golang/protobuf/proto"
 )

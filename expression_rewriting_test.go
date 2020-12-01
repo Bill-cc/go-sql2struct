@@ -19,7 +19,7 @@ package sqlparser
 import (
 	"testing"
 
-	"go-sql2struct/sysvars"
+	"github.com/Bill-cc/go-sql2struct/sysvars"
 
 	"github.com/stretchr/testify/assert"
 

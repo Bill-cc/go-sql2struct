@@ -24,11 +24,11 @@ import (
 	"fmt"
 	"strconv"
 
-	"go-sql2struct/bytes2"
+	"github.com/Bill-cc/go-sql2struct/bytes2"
 
-	"go-sql2struct/hack"
+	"github.com/Bill-cc/go-sql2struct/hack"
 
-	querypb "go-sql2struct/proto/query"
+	querypb "github.com/Bill-cc/go-sql2struct/proto/query"
 )
 
 var (
